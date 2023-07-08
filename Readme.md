@@ -28,3 +28,5 @@ not input, not output
 * SC_CTHREAD là một loại quy trình trong SystemC tương tự như SC_THREAD, nhưng với một số tính năng bổ sung.
 * SC_CTHREAD có thể sử dụng cơ chế cảnh báo dựa trên thời gian (timed wait) để chuyển đổi giữa các trạng thái, ví dụ: wait(10, SC_NS) để đợi trong 10 nanosecond.
 * SC_CTHREAD cũng sử dụng các lệnh cơ bản như wait(), wait(SC_ZERO_TIME), hoặc wait(some_event) để đồng bộ và chuyển đổi giữa các trạng thái.
+
+## Part 4 Simulation Stage
